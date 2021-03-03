@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<driverManifest>
+	<driver
+		id="{DCF6E7BA-FB33-4409-93EE-50F7960DDB28}"
+    	name="DMXKing ArtTrigger Sender" 
+    	author="DMX Pro Sales, LLC" 
+    	copyright="Copyright 2021" 
+    	deviceManufacturer="DMXKing" 
+    	deviceModel="(L)eDMX" 
+    	driverVersion="1.0" 
+		minimumSoftwareVersion="9.0"
+		minimumRuntimeVersion="23"
+		processorType="XP-8"  
+		configSettingsStream="ConfigSettings.xml"
+		systemFunctionsStream="SystemFunctions.xml"
+		helpTextStream="instructions.rtf"
+	>
+		<processorScript stream="main.js" />
+		<package>
+			<output filename="DMXKingArtTrigger" public="true" />
+		</package>
+
+	</driver>
+</driverManifest>

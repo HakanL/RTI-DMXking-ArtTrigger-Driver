@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<functions>
+	<category name="Trigger">
+		<function name="PlayShow" export="playShow" repeatrate="0">
+			<parameter name="NodeAddress" type="string"/>
+			<parameter name="ShowId" type="integer"/>
+		</function>
+		<function name="StopPlayback" export="stopShow" repeatrate="0">
+			<parameter name="NodeAddress" type="string"/>
+		</function>
+  	</category>
+</functions>
